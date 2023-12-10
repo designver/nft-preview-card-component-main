@@ -131,7 +131,7 @@ h1 {
 .cost:before {
   content: "";
   display: block;
-  background: url(/nft-preview-card-component-main/images/icon-ethereum.svg);
+  background: url(./images/icon-ethereum.svg);
   width: 0.6875rem;
   height: 1.125rem;
   margin-right: 0.405rem;
@@ -150,7 +150,7 @@ h1 {
 .time-left:before {
   content: "";
   display: block;
-  background: url(/nft-preview-card-component-main/images/icon-clock.svg);
+  background: url(./images/icon-clock.svg);
   width: 1rem;
   height: 1rem;
 }
@@ -244,15 +244,11 @@ h1 {
   }
 
   .img-content:hover::after {
-    background: url(/nft-preview-card-component-main/images/icon-view.svg);
+    background: url(./images/icon-view.svg);
     background-repeat: no-repeat;
     top: 7.9375rem;
     bottom: 0;
     left: 7.9375rem;
     right: 0;
   }
-  
-
-  
-
 }
